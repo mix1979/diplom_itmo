@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="article:author" content="https://www.facebook.com/profile.php?id=100075394650721">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="OJJO; Интернет-магазин ювелирных украшений">
+        <meta property="og:description" content="Магазин по рекламе и продаже ювелирных украшений различных мировых брендов">
+        <meta property="keywords" content="OJJO,история ювелирного дела, украшения,цены на украшения, мировые бенды, 2020, 2021,2022">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        >
+        <link rel="icon" href="./img/icon.png">
+        <title>OJJO - главная</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="wrapper_header ">
+                <div class="header_up">
+                    <div class="container">
+                        <div class="header_up__logo_menu_layer">
+                            <nav class="main_menu">
+                                <ul>
+                                    <a href="#beauty">
+                                        <li class="menu_item">Молодоженам</li>
+                                    </a>
+                                    <a href="#gifts">
+                                        <li class="menu_item">Советы</li>
+                                    </a>
+                                    <a href="./pages/contacts.html">
+                                        <li class="menu_item">Как нас найти</li>
+                                    </a>
+                                </ul>
+                            </nav>
+                            <div class="header_logo">
+                                <img src="./img/header/logo.png" alt="...">
+                                <div class="burger_menu" onclick="openMenu()">
+                                    <span class="burger_line " id="line_up"></span>
+                                    <span class="burger_line " id="line_middle"></span>
+                                    <span class="burger_line " id="line_down"></span>
+                                </div>
+                            </div>
+                            <form class="search_form none">
+                                <span class="fa fa-search"> &nbsp;&nbsp;
+                                    <a href="#" onclick="searchResult()">Поиск</a>
+                                </span>
+                                <a href="#">Вход</a>
+                                <span> /</span>
+                                <a href="#">Регистрация</a>
+                                <span class="fa fa-user"></span>
+                                <span class="fa fa-heart"></span>
+                                <span class="username"></span>
+                            </form>
+                        </div>
+                        <div class="header_main">
+                            <div class="mobile_menu_block">
+                                <ul>
+                                    <a href="#beauty">
+                                        <li class="mobile_menu_item">Молодоженам</li>
+                                    </a>
+                                    <a href="#gifts">
+                                        <li class="mobile_menu_item">Советы</li>
+                                    </a>
+                                    <a href="./pages/contacts.html">
+                                        <li class="mobile_menu_item">Как нас найти</li>
+                                    </a>
+                                    <li>
+                                        <a href="#">Вход &nbsp;&nbsp;&nbsp;/</a>
+                                        <a href="#">&nbsp;&nbsp;&nbsp;Регистрация</a>
+                                    </li>
+                                </ul>
+                                <div class="mobile_user_block">
+                                    <span class="fa fa-user"></span>
+                                    <span class="fa fa-heart"></span>
+                                </div>
+                                <div class="mobile_social_icons_block">
+                                    <a href="#">
+                                        <span class="fab fa-youtube-square"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fab fa-vk"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fab fa-facebook"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fab fa-telegram-plane"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <h1 class="main_title">Долго, дорого, богато!</h1>
+                            <a href="./pages/catalog.html">
+                                <input type="button" value="Каталог изделий" id="header_btn">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_down">
+                        <div class="container">
+                            <div class="header_down_img_layer">
+                                <ul>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                    <li class="img_li">
+                                        <img src="./img/header/down_img.png" alt="...">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="main_block ">
+                <div class="main_beauty " id="beauty">
+                    <h4 class="main_block_super_title">К мероприятиям</h4>
+                    <h2 class="main_block_title">Настоящая красота здесь!</h2>
+                    <div class="container">
+                        <div class="main_block_menu">
+                            <ul>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Свадьба</li>
+                                </a>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Мужу</li>
+                                </a>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Жене</li>
+                                </a>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Партнеру</li>
+                                </a>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Коллекции</li>
+                                </a>
+                                <a href="./pages/catalog.html">
+                                    <li class="main_block_menu_item">Редкость</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="main_block_img_layer">
+                            <div class="main_block_img_item">
+                                <img src="./img/main/01.png" alt="...">
+                            </div>
+                            <div class="main_block_img_item">
+                                <img src="./img/main/02.png" alt="...">
+                            </div>
+                            <div class="main_block_img_item">
+                                <img src="./img/main/03.png" alt="...">
+                            </div>
+                            <div class="main_block_img_item">
+                                <img src="./img/main/04.png" alt="...">
+                            </div>
+                            <div class="main_block_img_item">
+                                <img src="./img/main/05.png" alt="...">
+                            </div>
+                            <div class="main_block_img_item">
+                                <img src="./img/main/06.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_block_black_up ">
+                    <h4 class="main_block_super_title black_text">Не знаете, что выбрать?</h4>
+                    <h2 class="main_block_title black_text">Посетите наши салоны в Санкт-Петербурге</h2>
+                    <p>
+                        Здесь вы сможете на месте выбрать украшения для подарка, обручальне кольца для свадьбы, приветливые и
+                    профессиональные менеджеры помогут вам подобрать украшения для супруга, партнера, родных. Приятная
+                    обстановка и профессиональный подход делают наши салоны привлекательными для посетителей и клиентов.
+                    Ждем Вас!!!
+                    </p>
+                    <a href="./pages/contacts.html" id="black_block_btn">наши салоны</a>
+                </div>
+                <div class="main_block_gifts " id="gifts">
+                    <div class="container">
+                        <h4 class="main_block_super_title">Полезные статьи</h4>
+                        <h2 class="main_block_title">Лучшие советы по подбору дорогих подарков</h2>
+                        <div class="main_block_gifts_img_layer">
+                            <div class="main_block_gifts_img_layer_item">
+                                <a href="https://316.watch/blog/kak-vybrat-zhenskie-chasy/">
+                                    <img src="./img/main/07.png" alt="...">
+                                </a>
+                                <p class="gift_img_text">Как выбрать часы для своей будущей жены</p>
+                            </div>
+                            <div class="main_block_gifts_img_layer_item">
+                                <a href="https://manrule.ru/ukrasheniya/zaponki/" target="_blank
+                            ">
+                                    <img src="./img/main/man.jpg" alt="..." id="man">
+                                </a>
+                                <p class="gift_img_text">Запонки для мужа: 7 ключевых правил покупки аксессуара</p>
+                            </div>
+                            <div class="main_block_gifts_img_layer_item">
+                                <a href="https://wlooks.ru/kolca/kak-pravilno-vybirat-svadebnye/" target="_blank">
+                                    <img src="./img/main/09.png" alt="...">
+                                </a>
+                                <p class="gift_img_text">Как выбрать обручальные кольца молодоженам</p>
+                            </div>
+                        </div>
+                        <a href="https://www.silver-mania.ru/articles/" id="gift_btn" target="_blank">больше в блоге</a>
+                    </div>
+                </div>
+                <div class="main_block_social ">
+                    <div class="container">
+                        <h2 class="main_block_title">У нас можно подобрать украшение на любой вкус</h2>
+                        <div class="main_block_social_img_layer">
+                            <div class="main_block_social_img_item one"></div>
+                            <div class="main_block_social_img_item two"></div>
+                            <div class="main_block_social_img_item three"></div>
+                            <div class="main_block_social_img_item four"></div>
+                            <div class="main_block_social_img_item five"></div>
+                            <div class="main_block_social_img_item six"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_block_black ">
+                    <h4 class="main_block_super_title black_super_title">Полезные советы и персональный предложения</h4>
+                    <h2 class="main_block_title black_title">Свяжитесь с нами по почте</h2>
+                    <div class="container">
+                        <div class="footer_block_black_content">
+                            <div class="footer_block_black_content_left">
+                                <ul>
+                                    <li class="black_content_item">Личный менеджер</li>
+                                    <li class="black_content_item">Доставка и оформление</li>
+                                    <li class="black_content_item">Индивидуальный дизайн</li>
+                                </ul>
+                            </div>
+                            <div class="footer_block_black_content_right">
+                                <div class="email_block">
+                                    <div class="email_block_white">
+                                        <input
+                                            type="text"
+                                            value=""
+                                            id="email"
+                                            placeholder="ваш email"
+                                            name="email"
+                                        >
+                                        <input
+                                            type="button"
+                                            value="запрос"
+                                            id="footer_black_btn"
+                                            onclick="sendEmail()"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_content_layer">
+                        <div class="footer_card">
+                            <h4 class="card_title">Полезные ссылки</h4>
+                            <ul>
+                                <a href="#">
+                                    <li class="left_card_list_item">Доставка</li>
+                                </a>
+                                <a href="#">
+                                    <li class="left_card_list_item">Оплата</li>
+                                </a>
+                                <a href="#">
+                                    <li class="left_card_list_item">Акции</li>
+                                </a>
+                                <a href="#">
+                                    <li class="left_card_list_item">Политика конфидециальности</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="footer_card">
+                            <h4 class="card_title">оплата</h4>
+                            <p class="footer_card_text">Принимаем к оплате любые карты. Рассрочка. Кредит.</p>
+                            <img src="./img/footer/visa.png" alt="..." class="visa">
+                            <img src="./img/footer/mastercard.png" alt="..." class="master">
+                        </div>
+                        <div class="footer_card">
+                            <h4 class="card_title">контакты</h4>
+                            <ul>
+                                <li class="phone_card_item">8 (812) 234-56-55</li>
+                                <li class="phone_card_item">8 (812) 234-56-55</li>
+                                <li class="phone_card_item ojjo_mail">ojjo@ojjo.ru</li>
+                            </ul>
+                        </div>
+                        <div class="footer_card icons">
+                            <h4 class="card_title">социальные сети</h4>
+                            <p class="footer_card_text">
+                                Наша компания широко представлена в социальных сетях. Нас всегда
+                            легко найти
+                            </p>
+                            <a href="#">
+                                <span class="fab fa-youtube-square"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fab fa-vk"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fab fa-facebook"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fab fa-telegram-plane"></span>
+                            </a>
+                            <a href="#">
+                                <span>E</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer_copyright_layer">
+                        <div class="copyright_item">&copy; 2022 OJJO jewelry</div>
+                        <div class="copyright_item">
+                            <a href="#">Договор публичной офферты</a>
+                        </div>
+                        <div class="copyright_item">
+                            <a href="#">Партнерам</a>
+                        </div>
+                        <div class="copyright_item ">
+                            <a href="http://www.figma.com">Дизайн Figma.info
+                                <br>
+                                Верстка Михаил
+                            Шевелев
+                                <sup>&reg;</sup>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
